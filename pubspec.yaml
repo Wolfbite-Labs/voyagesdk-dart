@@ -1,10 +1,10 @@
 name: voyagesdk_dart
 description: SDK for creating software that interface with Packbase and other *base projects.
-version: 0.1.0
+version: 0.0.1
 repository: https://github.com/Wolfbite-Labs/voyagesdk-dart
 
 environment:
-  sdk: ^3.5.4
+  sdk: ^3.5.0
 
 # Add regular dependencies here.
 dependencies:
