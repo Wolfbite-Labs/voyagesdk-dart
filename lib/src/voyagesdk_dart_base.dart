@@ -1,8 +1,5 @@
 // TODO: Put public facing types in this file.
 
-import 'package:voyagesdk_dart/src/model/user/space_type.dart';
-
-
 class VoyageSDK {
 
   VoyageSDK();
