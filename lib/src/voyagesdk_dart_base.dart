@@ -1,7 +1,6 @@
 // TODO: Put public facing types in this file.
 
 class VoyageSDK {
-
   VoyageSDK();
 
   Future<void> signInWithPassword(String userEmail, String userPassword) async {
@@ -10,5 +9,4 @@ class VoyageSDK {
         password: userPassword
         );*/
   }
-
 }

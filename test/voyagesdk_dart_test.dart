@@ -6,8 +6,6 @@ void main() {
       // Additional setup goes here.
     });
 
-    test('', () {
-
-    });
+    test('', () {});
   });
 }

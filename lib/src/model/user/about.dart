@@ -14,13 +14,9 @@ class About {
   @JsonKey(includeIfNull: false)
   final String? flair;
 
-  About ({
-    this.bio,
-    this.flair
-  });
+  About({this.bio, this.flair});
 
   factory About.fromJson(Map<String, dynamic> json) => _$AboutFromJson(json);
 
   Map<String, dynamic> toJson() => _$AboutToJson(this);
-
 }

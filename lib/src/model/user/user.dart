@@ -5,17 +5,16 @@ part 'user.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class User {
-
   String? id;
   String? type;
   String? username;
 
   @JsonKey(name: 'display_name')
   String? displayName;
-  
+
   About? about;
   String? slug;
-  
+
   @JsonKey(name: 'space_type')
   String? spaceType;
 
@@ -37,5 +36,4 @@ class User {
   factory User.fromJson(Map<String, dynamic> json) => _$UserFromJson(json);
 
   Map<String, dynamic> toJson() => _$UserToJson(this);
-
 }
